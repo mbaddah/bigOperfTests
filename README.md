@@ -1,4 +1,4 @@
-# bigOperfTests
+# bigO perf Tests
 
 Note: Still wip.
 
@@ -9,6 +9,7 @@ End points:
 - localhost:8080/constant
 - localhost:8080/linear/{size}
 - localhost:8080/quadratic/{size}
+- localhost:8080/logarithmic/{size}/{target}
 
 ### How to run
 
