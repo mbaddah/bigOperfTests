@@ -6,10 +6,14 @@ Note: Still wip.
 
 End points:
 
-- localhost:8080/constant
-- localhost:8080/linear/{size}
-- localhost:8080/quadratic/{size}
-- localhost:8080/logarithmic/{size}/{target}
+| Notation / Time Complexity | Path                                       |
+|----------------------------|--------------------------------------------|
+| Constant O(1)              | localhost:8080/constant                    |
+| Linear O(n)                | localhost:8080/linear/{size}               |
+| Quadratic O(n^{2})         | localhost:8080/quadratic/{size}            |
+| Logarithmic O(log n)       | localhost:8080/logarithmic/{size}/{target} |
+| linearithmic O(n log n)    | localhost:8080/heapSort/{size}             |
+
 
 ### How to run
 
