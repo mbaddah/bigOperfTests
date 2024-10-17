@@ -28,3 +28,10 @@ To run Jmeter tests from CLI with html report:
 ```
  jmeter -n -t <test JMX file path> -l <test log file path> -e -o <Path to output folder>
  ```
+
+Set the heap size according to your memory, e.g:
+
+```declarative
+set HEAP=-Xms4g -Xmx8g -XX:MaxMetaspaceSize=256m
+```
+You can do this directly in the Jmeter.bat file or in env variables.

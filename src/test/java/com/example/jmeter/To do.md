@@ -1,0 +1,7 @@
+- Add assertions
+- Generate random data for linear, quadratic, ands logarithmic tests
+- Add end point to return large payload
+- Add end point to return large payload with delay
+- Add POST endpoint
+- Add lightweight database and test
+- Garbage collection
