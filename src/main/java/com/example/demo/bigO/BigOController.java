@@ -1,5 +1,6 @@
 package com.example.demo.bigO;
 
+import com.example.demo.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,11 @@ public class BigOController {
     public String constantTimeOperation()
     {
         return "This is a constant O(1) time operation. E.g. Looking up item in a hash map, retrieve value from dictionary etc...";
+    }
+
+    @GetMapping("/person")
+    public Person getPerson() {
+        return new Person("John Doe", 30, "123 Main St", "john.doe@gmail.com");
     }
 
     @GetMapping("/linear/{n}")
